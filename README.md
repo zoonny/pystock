@@ -96,3 +96,15 @@ $ pip install black
 
 ## Django admin
 
+```shell
+# 관리자 사용자 생성
+$ python3 manage.py createsuperuser
+Username: admin
+Email address: admin@example.com
+Password: ******
+$ python manage.py runserver
+```
+> http://localhost:8000/admin
+
+- manage poll app in admin site
+    - code to polls/admin.py
