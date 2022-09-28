@@ -108,3 +108,12 @@ $ python manage.py runserver
 
 - manage poll app in admin site
     - code to polls/admin.py
+```python
+from django.contrib import admin
+
+from .models import Question, Choice
+
+admin.site.register(Question)
+admin.site.register(Choice)
+```
+
