@@ -136,5 +136,6 @@ admin.site.register(Choice)
 ```shell
 $ docker ps -a
 Cannot connect to the Docker daemon at unix:///var/run/docker.sock...
-$ sudo systemctl status docker
+# excute to docker gui
+$ docker-compose --version
 ```
