@@ -30,6 +30,9 @@ Migrations for 'polls':
 $ python manage.py sqlmigrate polls 0001
 $ python manage.py migrate
 $ python manage.py migrate polls
+
+$ pip freeze > requirements.txt
+$ pip install -r requirements.txt
 ```
 
 - Django Data Handling
