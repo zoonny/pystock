@@ -31,8 +31,19 @@ $ python manage.py sqlmigrate polls 0001
 $ python manage.py migrate
 $ python manage.py migrate polls
 
+# python requirements.txt
 $ pip freeze > requirements.txt
 $ pip install -r requirements.txt
+
+# input your git access token and save cache
+$ git config --global credential.helper cache
+$ git push
+Username for 'https://github.com': zoonny
+Password for 'https://zoonny@github.com': [input your access code]
+Everything up-to-date
+
+# remove cache
+$ git config --global --unset credential.helper
 ```
 
 - Django Data Handling
@@ -120,3 +131,10 @@ admin.site.register(Question)
 admin.site.register(Choice)
 ```
 
+## Docker
+
+```shell
+$ docker ps -a
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock...
+$ sudo systemctl status docker
+```
