@@ -139,3 +139,10 @@ Cannot connect to the Docker daemon at unix:///var/run/docker.sock...
 # excute to docker gui
 $ docker-compose --version
 ```
+
+## Etc
+
+```shell
+$ Get-Content README.md -Wait -Tail 10
+```
+
